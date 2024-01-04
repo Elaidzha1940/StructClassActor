@@ -10,4 +10,4 @@ Topics include:
 
 Value vs Reference Types:
 -------------------------
-![til](https://miro.medium.com/v2/resize:fit:1200/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
+![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
