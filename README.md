@@ -1,7 +1,7 @@
 Swift: Struct vs Class vs Actor, Value vs Reference Types, Stack vs Heap...
 ===========================================================================
 
-## Topics include:
+Topics include:
 1. Structs vs Classes vs Actors
 2. Value vs Reference Types
 3. Stack vs Heap memory
