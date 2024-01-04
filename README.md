@@ -8,6 +8,6 @@ Topics include:
 4. Automatic Reference Counting (ARC) in Swift
 5. Weak vs Strong References
 
-Value vs Reference Types:
+Reference vs Value Types:
 -------------------------
 ![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
