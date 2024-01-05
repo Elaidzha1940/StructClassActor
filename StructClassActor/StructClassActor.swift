@@ -29,12 +29,12 @@ extension StructClassActor {
     
     private func runTest() {
         print("Test started")
-        //        structTest1()
-        //        printDivider()
-        //        classTest1()
-        structTest2()
+        structTest1()
         printDivider()
-        classTest2()
+        classTest1()
+        //        structTest2()
+        //        printDivider()
+        //        classTest2()
     }
     
     private func printDivider() {
@@ -79,6 +79,26 @@ extension StructClassActor {
         
         print("objectA", objectA.title)
         print("objectB", objectB.title)
+    }
+    
+    private func actorTest1()  {
+        
+        Task {
+            print("actorTest1")
+            
+            let objectA = MyActor(title: "Starting title.")
+            await print("objectA", objectA.title)
+            
+            print("Pass the Reference of objectA to objectB")
+            let objectB = objectA
+            await print("objectB", objectB.title)
+            
+            await objectB.updateTitle(newTitle: "Second title.")
+            print("objectB title changed.")
+            
+            await print("objectA", objectA.title)
+            await print("objectB", objectB.title)
+        }
     }
 }
 
@@ -136,6 +156,18 @@ extension StructClassActor {
 }
 
 class MyClass {
+    var title: String
+    
+    init(title: String) {
+        self.title = title
+    }
+    
+    func updateTitle(newTitle: String) {
+        title = newTitle
+    }
+}
+
+actor MyActor {
     var title: String
     
     init(title: String) {
