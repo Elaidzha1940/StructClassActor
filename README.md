@@ -66,6 +66,15 @@ https://medium.com/@vinayakkini/swift-basics-struct-vs-class-31b44ade28ae
 Stack vs Heap: 
 --------------
 
+ Stack:
+ - Stores Value types
+ - Variables allocated on the stack are stored directly to the memory, and access to this memory is very fast
+ - Each Thread has own stack
+ 
+ Heap:
+ - Stores Reference types
+ - Shared across Threads, Each Thread dose not have it's own Heap
+
 <img width="491" alt="Stack vs Heap" src="https://github.com/Elaidzha1940/StructClassActor/assets/64445918/b1ae405f-e518-4170-9c2f-4e443bc703e6">
 
 Link:
