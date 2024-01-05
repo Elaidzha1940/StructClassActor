@@ -28,3 +28,8 @@ Link:
 ``````````ruby
 https://medium.com/@vinayakkini/swift-basics-struct-vs-class-31b44ade28ae
 ``````````
+
+Stack vs Heap: 
+
+<img width="491" alt="Stack vs Heap" src="https://github.com/Elaidzha1940/StructClassActor/assets/64445918/b1ae405f-e518-4170-9c2f-4e443bc703e6">
+
