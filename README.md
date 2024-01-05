@@ -8,7 +8,7 @@ Topics include:
 4. Automatic Reference Counting (ARC) in Swift
 5. Weak vs Strong References
 
-Structs vs Classes:
+Structs vs Classes vs Actor:
 -------------------
 
  Struct:
