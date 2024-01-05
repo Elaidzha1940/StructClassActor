@@ -8,6 +8,20 @@ Topics include:
 4. Automatic Reference Counting (ARC) in Swift
 5. Weak vs Strong References
 
+Structs vs Classes:
+-------------------
+
+UPDATE (27 Mar 2018):
+
+As of Swift 4.0, Xcode 9.2, running Release build on iPhone 6S, iOS 11.2.6, Swift Compiler setting is -O -whole-module-optimization:
+
+class version took 2.06 seconds
+struct version took 4.17e-08 seconds (50,000,000 times faster)
+
+(I no longer average multiple runs, as variances are very small, under 5%)
+
+Note: the difference is a lot less dramatic without whole module optimization. I'd be glad if someone can point out what the flag actually does.
+
 Reference vs Value Types:
 -------------------------
 ![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
