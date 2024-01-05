@@ -48,3 +48,9 @@ Stack vs Heap:
 
 <img width="491" alt="Stack vs Heap" src="https://github.com/Elaidzha1940/StructClassActor/assets/64445918/b1ae405f-e518-4170-9c2f-4e443bc703e6">
 
+Link:
+``````````ruby
+https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap
+``````````
+
+
