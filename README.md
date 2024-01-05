@@ -11,3 +11,8 @@ Topics include:
 Reference vs Value Types:
 -------------------------
 ![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
+
+More about Reference vs Value Types:
+``````````ruby
+https://abhimuralidharan.medium.com/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a
+``````````
