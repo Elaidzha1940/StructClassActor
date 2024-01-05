@@ -11,6 +11,21 @@ Topics include:
 Structs vs Classes:
 -------------------
 
+ Struct:
+ - Based on Values
+ - Can be mutated
+ - Stored in the Stack
+ 
+ Class:
+ - Based on References (Instances)
+ - Stored in the Heap
+ - Inharit from other classes
+ 
+ Actors:
+ - Same as Class, but Thread safe
+
+-----------------------------------
+
 UPDATE (27 Mar 2018):
 
 As of Swift 4.0, Xcode 9.2, running Release build on iPhone 6S, iOS 11.2.6, Swift Compiler setting is -O -whole-module-optimization:
