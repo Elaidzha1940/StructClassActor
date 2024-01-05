@@ -41,6 +41,7 @@ Link:
 ```````ruby
 https://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24232845
 ```````
+------------------------------------
 
 Reference vs Value Types:
 -------------------------
@@ -77,6 +78,8 @@ Link:
 ``````````ruby
 https://medium.com/@vinayakkini/swift-basics-struct-vs-class-31b44ade28ae
 ``````````
+
+---------------------------------------
 
 Stack vs Heap: 
 --------------
