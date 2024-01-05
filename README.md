@@ -29,6 +29,21 @@ https://stackoverflow.com/questions/24232799/why-choose-struct-over-class/242328
 
 Reference vs Value Types:
 -------------------------
+
+ Value Types:
+ - Struct, Enum, String, Int, etc.
+ - Stored in the Stack
+ - Faster
+ - Thread safe
+ - When you assign or pass value type a new copy of data is created
+ 
+ Reference types:
+ - Class, Function, Actor
+ - Stored in the Heap
+ - Slower, but synchronized
+ - Not Thread safe (by default)
+ - When you assign or pass reference type a new reference to original instance will be created (pointer)
+
 ![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
 
 Link:
