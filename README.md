@@ -22,6 +22,11 @@ struct version took 4.17e-08 seconds (50,000,000 times faster)
 
 Note: the difference is a lot less dramatic without whole module optimization. I'd be glad if someone can point out what the flag actually does.
 
+Link: 
+```````ruby
+https://stackoverflow.com/questions/24232799/why-choose-struct-over-class/24232845
+```````
+
 Reference vs Value Types:
 -------------------------
 ![til](https://miro.medium.com/v2/resize:fit:1500/format:webp/1*oiSNPErZHJ40FcWNTxAM0A.gif)
