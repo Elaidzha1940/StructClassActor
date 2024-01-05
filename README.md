@@ -20,5 +20,6 @@ https://abhimuralidharan.medium.com/difference-between-value-type-and-a-referenc
 Below image shows the fundamental difference between value type and reference type:
 -----------------------------------------------------------------------------------
 ``````````ruby
-<img width="707" alt="RvsV" src="https://github.com/Elaidzha1940/StructClassActor/assets/64445918/c4c1f234-b084-45db-a5f1-3c56beb05a1f">
+https://medium.com/@vinayakkini/swift-basics-struct-vs-class-31b44ade28ae
 ``````````
+<img src="https://github.com/Elaidzha1940/The-Crypto-App/assets/64445918/179f5562-03d8-4092-a16b-642cf38b5dac" width="130" height="270">
