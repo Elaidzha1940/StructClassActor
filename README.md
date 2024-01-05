@@ -22,6 +22,7 @@ Below image shows the fundamental difference between value type and reference ty
 
 <img src="https://github.com/Elaidzha1940/StructClassActor/assets/64445918/0214bdbe-1a81-4b4c-bb1e-caab6c604d6b" width="450" height="300">
 
+Link:
 ``````````ruby
 https://medium.com/@vinayakkini/swift-basics-struct-vs-class-31b44ade28ae
 ``````````
