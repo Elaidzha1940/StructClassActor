@@ -17,6 +17,8 @@ Link:
 https://abhimuralidharan.medium.com/difference-between-value-type-and-a-reference-type-in-ios-swift-18cb5145ad7a
 ``````````
 
+Usually (in most programming languages), objects are blocks of data that are stored on heap, and then a reference (normally a pointer) to these blocks, contains a name is using to access these blocks of data. This mechanism allows sharing objects in the heap by copying the value of their references (pointers). This is not the case of basic data types such as Integers, and that is because the memory needed to create a reference is almost the same as the object (in this case integer value). Thus, they will be passed as values not as a reference in the case of large objects.
+
 Below image shows the fundamental difference between value type and reference type:
 -----------------------------------------------------------------------------------
 
