@@ -9,6 +9,50 @@
 
 import SwiftUI
 
+/*
+ 
+ Value Types:
+ - Struct, Enum, String, Int, etc.
+ - Stored in the Stack
+ - Faster
+ - Thread safe
+ - When you assign or pass value type a new copy of data is created
+ 
+ Reference types:
+ - Class, Function, Actor
+ - Stored in the Heap
+ - Slower, but synchronized
+ - Not Thread safe (by default)
+ - When you assign or pass reference type a new reference to original instance will be created (pointer)
+ 
+ Stack:
+ - Stores Value types
+ - Variables allocated on the stack are stored directly to the memory, and access to this memory is very fast
+ - Each Thread has own stack
+ 
+ Heap:
+ - Stores Reference types
+ - Shared across Threads, Each Thread dose not have it's own Heap
+ 
+ Struct:
+ - Based on Values
+ - Can be mutated
+ - Stored in the Stack
+ 
+ Class:
+ - Based on References (Instances)
+ - Stored in the Heap
+ - Inharit from other classes
+ 
+ Actors:
+ - Same as Class, but Thread safe
+ 
+ Structs: Data Models, Views
+ Classes: ViewModels
+ Actors: Shared 'Manager' and 'Data Store' - Singltone, потокбезопасный и можем обращаться много раз
+ 
+ */
+
 struct StructClassActor: View {
     var body: some View {
         
@@ -32,6 +76,8 @@ extension StructClassActor {
         structTest1()
         printDivider()
         classTest1()
+        printDivider()
+        actorTest1()
         //        structTest2()
         //        printDivider()
         //        classTest2()
